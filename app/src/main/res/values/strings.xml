@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Academia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_new_exercise">Novo Ecercício</string>
+
+    <string name="menu_gallery">Sobre</string>
+    <string name="menu_slideshow">Sair</string>
+    <string name="exercise_form_activity_title">Ecercício</string>
+    <string name="training_form_activity_title">Treino</string>
+    <string name="exercise_list_activity_title">Lista de Exercícios</string>
+    <string name="training_list_activity_title">Lista de Treinos</string>
+    <string name="cadastro_activity_title">Cadastro</string>
+    <string name="login_activity_title">Login</string>
+
+    <string name="ERROR_UNEXPECTED">Um erro inesperado ocorreu. Tente novamente mais tarde.</string>
+    <string name="ERROR_INTERNET_CONNECTION">Conexão à internet necessária para uso da applicação.</string>
+
+    <string name="ERROR_GLIDE_DOWNLOAD">Erro ao realizar o Download da imagem:</string>
+    <string name="SUCCESS_GLIDE_DOWNLOAD">Success no Download da imagem:</string>
+
+
+    <string name="TAG_FIREBASE_LOGIN">LoginFirebase</string>
+    <string name="TAG_FIREBASE_LOOUT">LogOutFirebase</string>
+    <string name="TAG_FIREBASE_CRIATE_LOGIN">CreateLoginFirebase</string>
+
+    <string name="TAG_FIREBASE_URL">RecuperaURLFirebase</string>
+    <string name="TAG_FIREBASE_FIRESTOREL">RecuperaFirebaseFirestore</string>
+
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="nome">Nome</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="sim">Sim</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nao_tem_uma_conta">Não tem uma conta?</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="entrar">Entrar</string>
+    <string name="sair">Sair</string>
+    <string name="descricao">Descrição</string>
+    <string name="identificador">Identificador</string>
+    <string name="data">Data</string>
+    <string name="clique_para_selecionar_a_data">Clique para selecionar a data</string>
+    <string name="completa">Completo</string>
+    <string name="adicionar_new">Adiciona</string>
+
+    <!-- exercise -->
+
+    <string name="select_gallery">Galeria</string>
+    <string name="take_picture">Tirar Foto</string>
+    <string name="remocao_de_exercise">Remoção de exercício</string>
+    <string name="remover_exercise">Remover exercício?</string>
+    <string name="all_exercises">Exercícios</string>
+    <string name="update_exercise">Atualizar exercício</string>
+
+    <string name="exercise_updated">Exercício atualizada com sucesso!</string>
+    <string name="exercise_created">Exercício criada com sucesso!</string>
+    <string name="exercise_removed">Exercício removida com sucesso!</string>
+
+    <!-- training -->
+
+    <string name="remocao_de_training">Remoção de treino</string>
+    <string name="remover_training">Remover treino?</string>
+    <string name="all_trainings">Treinos</string>
+    <string name="update_training">Atualizar treino</string>
+
+    <string name="training_updated">Treino atualizado com sucesso!</string>
+    <string name="training_created">Treino criado com sucesso!</string>
+    <string name="training_removed">Treino removido com sucesso!</string>
+
+
+</resources>
