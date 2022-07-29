@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/ic_add.xml" value="0.3235" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/ic_add_circle.xml" value="0.175" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/ic_add_photo.xml" value="0.3235" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/ic_done.xml" value="0.3235" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/ic_lock.xml" value="0.21" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/ic_todo.xml" value="0.3235" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/shape_login_background.xml" value="0.3235" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/drawable/shape_round_button.xml" value="0.3235" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/activity_exercise.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/activity_exercise_form.xml" value="0.5" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/activity_main.xml" value="0.3582427536231884" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/activity_training_form.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/app_bar_main.xml" value="0.5" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/content_main.xml" value="0.3582427536231884" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/fragment_home.xml" value="0.14629629629629629" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/fragment_slideshow.xml" value="0.2694746376811594" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/fragment_sobre.xml" value="0.2694746376811594" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/nav_header_main.xml" value="0.42168674698795183" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/row_exercise_list.xml" value="0.5" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/layout/row_training_list.xml" value="0.27421875" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/menu/activity_main_drawer.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/menu/main.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/Death/source/repos/Kotlin/Academia/app/src/main/res/xml/provider.xml" value="0.365625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
