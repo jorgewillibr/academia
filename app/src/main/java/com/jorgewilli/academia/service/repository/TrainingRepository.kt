@@ -169,24 +169,32 @@ class TrainingRepository (context: Context) : BaseRepository(context) {
             listener.onFailure(mContext.getString(R.string.ERROR_INTERNET_CONNECTION))
             return
         }
-        val newKeyExercise = category + LocalDateTime.now().toString()
 
-        val newTraining = hashMapOf(
-            "nome" to training.nome,
-            "descricao" to training.descricao,
-            "data" to training.data,
-        )
+        val reference = mRemoteDatabase.collection(category)
 
-        mRemoteDatabase.collection(category).document(newKeyExercise)
-            .set(newTraining)
-            .addOnFailureListener { erro ->
-                listener.onFailure(mContext.getString(R.string.ERROR_GLIDE_DOWNLOAD) +"Erro ${erro.message.toString()}")
+        reference.get().addOnSuccessListener { documents ->
+            if (documents != null) {
+                documents.size()
 
-            }.addOnSuccessListener { documentos ->
+                val newTraining = hashMapOf(
+                    "nome" to documents.size()+1,
+                    "descricao" to training.descricao,
+                    "data" to training.data,
+                )
 
-                listener.onSuccess(true, 200)
+                reference
+                    .add(newTraining)
+                    .addOnFailureListener { erro ->
+                        listener.onFailure(mContext.getString(R.string.ERROR_GLIDE_DOWNLOAD) +"Erro ${erro.message.toString()}")
+
+                    }.addOnSuccessListener { documentos ->
+
+                        listener.onSuccess(true, 200)
+                    }
+
+
             }
-
+        }
     }
 
     fun update(training: TrainingModel, category: String, listener: APIListener<Boolean>) {
