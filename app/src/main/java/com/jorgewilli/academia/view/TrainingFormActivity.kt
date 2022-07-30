@@ -82,7 +82,8 @@ class TrainingFormActivity : AppCompatActivity(), DatePickerDialog.OnDateSetList
                 mTrainingid = it.nome
 
                 val date = SimpleDateFormat("yyyy-MM-dd").parse(it.data)
-                binding.buttonDate.setText(mDateFormat.format(date))
+                //binding.buttonDate.setText(mDateFormat.format(date))
+                mViewModel.setDate(mDateFormat.format(date))
             }
         }
 
